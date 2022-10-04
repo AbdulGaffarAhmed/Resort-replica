@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400&display=swap'
+);
+body{
+    font-family:'raleway',sans-serif;
+}
+#Header{
+    display: inline;
+}
+nav{
+    display: inline;
+    margin-left: 1400px;
+}
+ nav a{
+    margin-left: 6px;
+    cursor: pointer;
+    color:antiquewhite;
+    font-weight: bold;
+ }
+ #header{
+    padding: 30px;
+ }
+ #hero{
+  height: 450px;
+    width:2000px;;
+    background-image: url('../Assetss/hero.jpg');
+    position:relative;
+    opacity: 0.7;
+ }
+ #h1{
+    padding: 10px;
+    color: antiquewhite;
+ }
+ 
+ #h2{
+  padding: 10px;
+  color: antiquewhite;
+ }
+ #main h3{
+  color: blue;
+ }
+ #experience h3{
+  color: blue;
+ }
+ #gallery{
+   display: flex;
+ }
+ #all{
+  height: 300px;
+  width: 20%;
+  position: relative;
+ }
+ #all p{
+  color: black;
+  padding: 20px;
+ }
+ #gall{
+   height: 300px;
+   width: 20%;
+   position: relative;
+ }
+ #gall p{
+   color:antiquewhite;
+   padding: 20px;
+ }
+ #amenities{
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   grid-template-rows: (4,1fr);
+ }
+ #main2 h3{
+  color: blue;
+ }
+ #amenities div span{
+   padding: 20px;
+ }
